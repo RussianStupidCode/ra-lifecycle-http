@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ra-lifecycle-http/static/css/main.100abd64.css",
+    "main.js": "/ra-lifecycle-http/static/js/main.45d8d8e3.js",
+    "static/media/bootstrap-icons.woff?": "/ra-lifecycle-http/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/ra-lifecycle-http/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/close.svg": "/ra-lifecycle-http/static/media/close.c3fa0e3d4add6dc6861495ab264c9751.svg",
+    "static/media/refresh.svg": "/ra-lifecycle-http/static/media/refresh.793d71afdb272b671634b810b55559b3.svg",
+    "index.html": "/ra-lifecycle-http/index.html",
+    "main.100abd64.css.map": "/ra-lifecycle-http/static/css/main.100abd64.css.map",
+    "main.45d8d8e3.js.map": "/ra-lifecycle-http/static/js/main.45d8d8e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.100abd64.css",
+    "static/js/main.45d8d8e3.js"
+  ]
+}
