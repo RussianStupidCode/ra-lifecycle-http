@@ -21,7 +21,6 @@ const Notes = () => {
   }, [update]);
 
   const handleDelete = (id) => {
-    console.log(id);
     API.deleteNote(id);
     refresh();
   };
@@ -31,11 +30,19 @@ const Notes = () => {
   };
 
   const handleSend = ({ key }) => {
-    if (key === "Enter") {
-      API.createNote(content);
-      setContent("");
-      refresh();
+    if (key !== "Enter") {
+      return;
     }
+
+    const request = content.trim();
+
+    if (request.length === 0) {
+      return;
+    }
+
+    API.createNote(request);
+    setContent("");
+    refresh();
   };
 
   return (
@@ -55,6 +62,7 @@ const Notes = () => {
           rows={6}
           cols={40}
           onKeyDown={handleSend}
+          placeholder="Ввести и нажать Enter"
         ></textarea>
       </div>
 
