@@ -3,7 +3,7 @@ let nextId = 1;
 
 const getNotes = () => {
   return new Promise((resolve) => {
-    setInterval(() => {
+    setTimeout(() => {
       resolve(notes);
     }, Math.random() * 200);
   });
