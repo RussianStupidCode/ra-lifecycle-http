@@ -34,12 +34,22 @@ const AddForm = ({ onSubmit }) => {
     <form className="d-flex justify-content-center align-items-center">
       <div className="d-flex flex-column mx-2">
         <label>Название</label>
-        <input type="text" name="name" onChange={onChange} />
+        <input
+          type="text"
+          name="name"
+          placeholder="Нарния"
+          onChange={onChange}
+        />
       </div>
 
       <div className="d-flex flex-column mx-2">
         <label>Временная зона (+/-HHMM | +0100)</label>
-        <input type="text" name="timezone" onChange={onChange} />
+        <input
+          type="text"
+          name="timezone"
+          placeholder="+0500"
+          onChange={onChange}
+        />
       </div>
 
       <div className="d-flex flex-column mx-2 align-self-end">
